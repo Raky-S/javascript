@@ -24,11 +24,11 @@ function arrayToString(array) {
 
 // arrayToString(['Fire', 'Air', 'Water'])
 function transformEachWord(array) {
-    let newArray = array
-    for (let index = 0; index < array.length; index++) {
-        newArray[index] = firstLetterCapital(array[index]);
-      }
-    return newArray
+  let newArray = array;
+  for (let index = 0; index < array.length; index++) {
+    newArray[index] = firstLetterCapital(array[index]);
+  }
+  return newArray;
 }
 function letterCapitalise(string) {
   let array = stringToArray(string);
@@ -36,7 +36,7 @@ function letterCapitalise(string) {
     array[index] = firstLetterCapital(array[index]);
   }
   let finalSentence = arrayToString(array);
-  console.log(finalSentence);
+  // console.log(finalSentence);
 }
 
 letterCapitalise("je rentre a LA MAISON");
