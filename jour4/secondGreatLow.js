@@ -17,7 +17,7 @@ numArray.sort(function (a, b) {
 
   // construire une boucle for pour extraire le second numéro le plus petit
   for (var i = 0; i < numArray.length; i++) {
-    if (numArray[i] > numArray[i+1]) {
+    if (numArray[i] > numArray[i + 1]) {
       newMin = numArray[i];
       // console.log(newMin);
       break;
@@ -27,8 +27,8 @@ numArray.sort(function (a, b) {
   // construire une boucle for pour extraire le second numéro le plus grand
   // partir de la fin pour que le deuxième nombre le plus grand soit à la deuxième place
   for (var i = numArray.length; i > 0; i--) {
-    if (numArray[i] < numArray[i-1]) {
-      newMax = numArray[i-1];
+    if (numArray[i] < numArray[i - 1]) {
+      newMax = numArray[i - 1];
       // console.log(newMax + "  combien de fois tu reviens");
       break;
     }
@@ -37,7 +37,7 @@ numArray.sort(function (a, b) {
   return a - b;
 });
 
-var newArray = numArray()
+var newArray = numArray();
 
 console.log(newArray);
 
