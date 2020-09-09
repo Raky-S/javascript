@@ -1,25 +1,13 @@
-
-
-var power= 3
-var num = 3
-
-
+var power = 3;
+var num = 3;
 
 function powerFuncIter(num, power) {
-    if (num ** power)
-      return;
-
+  if (num ** power) return;
 }
 
-
-var resultat = powerFuncIter(num, power)
+var resultat = powerFuncIter(num, power);
 
 console.log(resultat);
-
-
-
-
-
 
 // function powerFuncIter(num**power) {
 //   var i = 0;
@@ -30,10 +18,7 @@ console.log(resultat);
 // }
 // iter(3)
 
-
-
-
-// var powerFuncIter = 
+// var powerFuncIter =
 
 // function rec(x) {
 //     if (x == 0)
@@ -42,12 +27,6 @@ console.log(resultat);
 //     return (rec(x * 1));
 //   }
 //   rec(3);
-  
-
-
-
-
-
 
 // var num = 3
 // var power = 3
@@ -61,12 +40,11 @@ console.log(resultat);
 //     }
 //   }
 //   powerFuncIter(num, power);
- 
 
 // var num = 3
 // var power = 3
-// console.log(num(power)) 
-    
-//     function power (power) 
+// console.log(num(power))
+
+//     function power (power)
 //        return num + 3
-//         
+//
