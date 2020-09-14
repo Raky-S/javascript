@@ -5,11 +5,10 @@
 // }
 // displaySomething();
 
-function displaySomething(saySomething) {
+function displaySomething() {
  
-  return saySomething;
+  console.log("yeah!")
 }
-console.log(displaySomething("yeah!"));
-
+displaySomething()
 // var somethingToSay = displaySomething();
 // console.log(somethingToSay);

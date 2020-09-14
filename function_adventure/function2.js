@@ -3,7 +3,6 @@
 var aString = "Some text";
 
 function displayVariable(str) {
-  var newString = str;
-  return newString;
+  return str;
 }
 console.log(displayVariable(aString));

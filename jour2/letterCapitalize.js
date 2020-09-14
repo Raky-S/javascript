@@ -1,3 +1,5 @@
+// EXO réalisé étape par étape par avec l'explication de Andy
+
 //string => array de mots
 function stringToArray(string) {
   // console.log("stringToArray");
@@ -41,6 +43,8 @@ function letterCapitalise(string) {
 
 letterCapitalise("je rentre a LA MAISON");
 
+//Exo fait par Andy
+
 /*const letterCapByAndy = (string) =>
   string
     .split(" ")
@@ -61,20 +65,3 @@ const letterCapByAndyII = (string) =>
 
 console.log(letterCapByAndyIII("hello le monde"));*/
 
-// function letterCapitalise (tableau) {
-//     for ( var i=0; i<tableau.length; i++) {
-//         console.log(tableau[i]);
-//     }
-//     // for ( var i=0; i)
-// }
-
-// letterCapitalise(tab.charAt(i));
-
-// console.log(sentence.charAt(0).toUpperCase()+sentence.substr(0.1)+ arr)
-
-// function letterCapitalise(sentence) {
-//     var sentence = sentence.substr(0.1));
-//     return sentence.charAt(1).toUpperCase();
-// }
-
-// console.log(letterCapitalise(sentence))

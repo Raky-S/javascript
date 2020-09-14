@@ -1,8 +1,7 @@
 "Use strict";
 
 function getHello(str) {
-  var helloName = "Hello " + str;
-  return helloName;
+  return "hello " + str;
 }
 getHello();
 
